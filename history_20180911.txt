@@ -1,0 +1,109 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whoami
+    4  pwd
+    5  ls
+    6  ls -l
+    7  cd Desktop
+    8  pwd
+    9  ls -l
+   10  cd /home/user
+   11  pwd
+   12  ls -a
+   13  ls -la
+   14  cd .
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  ls -la
+   19  cd ..
+   20  pwd
+   21  ls -la
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  cd /home/user
+   26  pwd
+   27  cd /
+   28  pwd
+   29  cd ~
+   30  pwd
+   31  cd
+   32  pwd
+   33  ls -l
+   34  mkdir
+   35  mkdir ManaMape
+   36  ls -l
+   37  cd ManaMape/
+   38  pwd
+   39  ls
+   40  ls -la
+   41  cd .
+   42  pwd
+   43  cd ..
+   44  pwd
+   45  rmdir ManaMape/
+   46  ls
+   47  mkdir ManaMape
+   48  ls
+   49  pwd
+   50  cd ManaMape/
+   51  cd ..
+   52  ls -l
+   53  mkdir ManaMape/
+   54  man rmdir
+   55  man rm
+   56  rm -r ManaMape/
+   57  ls -l
+   58  man echo
+   59  echo "Teksts"
+   60  "Teksts teksts teksts"
+   61  echo "Teksts teksts teksts"
+   62  man echo
+   63  echo -e "Teksts\n teksts\n teksts\n"
+   64  echo "Teksts" > fails1.txt
+   65  ls
+   66  ls -l
+   67  echo "Teksts" > ../fails1.txt
+   68  cd ..
+   69  pwd
+   70  cd ..
+   71  ls -l
+   72  cd
+   73  pwd
+   74  ls -l
+   75  cat fails1.txt
+   76  echo "Cits teksts" > ../fails1.txt
+   77  echo "Teksts" > ../fails1.txt
+   78  echo "Teksts" > fails1.txt
+   79  cat fails1.txt
+   80  echo "Cits teksts" >> fails1.txt
+   81  cat fails1.txt
+   82  ls -l fails1.txt
+   83  ls -l
+   84  man chmod
+   85  chmod 700 fails1.txt
+   86  ls -l
+   87  chmod 400 fails.txt
+   88  ls -l
+   89  echo "Teksts" > fails1.txt
+   90  chmod 400 fails1.txt
+   91  chmod 600 fails1.txt
+   92  ls -l
+   93  nano fails1.txt
+   94  cp fails1.txt fails3.txt
+   95  ls -l
+   96  mv *.txt Music/
+   97  ls -l
+   98  cd Music/
+   99  ls -l
+  100  mv *.txt ../
+  101  ls -l
+  102  cd ..
+  103  ls -l
+  104  mv fails1.txt fails31.txt
+  105  ls -l
+  106  rm *3*.txt
+  107  ls -l
+  108  history
+  109  history > history_20180911.txt
