@@ -30,6 +30,9 @@ user@epk428-5:~$ ls -l > mapes apraksts (tas ir mape, fails vai tas ir links)
 3 grupas: lietotāj gruppas > rwx-lasīt, rakstīt, izpildīt
 user@epk428-5:~$ ls -a > tie kas paradījas papildi (VISI OBJEKTI)!!!!!!
 user@epk428-5:~$ ls -la > mūsu riciba ir tikai mapes
+
+
+
 CTRL+CHIFT+T-jaunais Tabs;
 cd/home/user- atpakaļ
 pwd-parbaudam ja ir mēs māja
