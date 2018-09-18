@@ -1,0 +1,43 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  echo -e "mkdir Mape\ncd Mape" > create_in.sh
+    5  ls
+    6  -l
+    7  ls -l
+    8  wyhereis firefox
+    9  whereis firefox
+   10  echo $PATH
+   11  whereis cd
+   12  whereis firefox
+   13  create_in.sh
+   14  echo $PATH
+   15  LS -L
+   16  ls -l
+   17  chmod 764 create_in.sh
+   18  ls -l
+   19  create
+   20  create_in
+   21  create_in.sh
+   22  ls
+   23  echo $PATH
+   24  ls
+   25  PATH=$PATH:~/Mape
+   26  echo $PATH
+   27  /home/user/create_in.sh
+   28  ./create_in.sh
+   29  nano create_in.sh
+   30  pwd
+   31  ls -l
+   32  git clone https://github.com/GVlada/rtr105
+   33  ls -l
+   34  ~/rtr105$
+   35  ~/rtr105$ pwd
+   36  ~/rtr105$ ls -l
+   37  ls -l
+   38  cd rtr105/
+   39  ls -l
+   40  nano README
+   41  nano git-upload
+   42  ls -l
+   43  history > history_20180918.txt
