@@ -1,0 +1,108 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> vars()
+{'__builtins__': <module '__builtin__' (built-in)>, '__name__': '__main__', '__doc__': None, '__package__': None}
+>>> input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 10
+10
+>>> vars()
+{'__builtins__': <module '__builtin__' (built-in)>, '__name__': '__main__', '__doc__': None, '__package__': None}
+>>> mans_mainiigais = input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 10
+>>> vars()
+{'mans_mainiigais': 10, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, '__name__': '__main__', '__doc__': None}
+>>> mans_mainiigais
+10
+>>> 
+>>> mans_mainiigais = input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")20
+SyntaxError: invalid syntax
+>>> 
+>>> mans_mainiigais = input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")20
+SyntaxError: invalid syntax
+>>> input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 20
+20
+>>> mans_mainiigais = input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 20
+>>> mans_mainiigais
+20
+>>> vars()
+{'mans_mainiigais': 20, '__builtins__': <module '__builtin__' (built-in)>, '__package__': None, '__name__': '__main__', '__doc__': None}
+>>> type(mans_mainiigais)
+<type 'int'>
+>>> 
+mans_mainiigais = input ("Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: ")20
+SyntaxError: invalid syntax
+>>> 
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 7
+>>> vars()
+{'mans_mainiigais': 7, '__builtins__': <module '__builtin__' (built-in)>, '__file__': '/home/user/rtr105/test_1_20180925.py', '__package__': None, 'x': 49, '__name__': '__main__', '__doc__': None}
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 89
+mans_mainiigais =
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 156
+mans_mainiigais = 1.560000e+02d
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 156
+mans_mainiigais = 156
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi vienu skaitli: 12
+mans_mainiigais = 12
+vai tu esi ievadījis skaitli: 12
+vēl atmiņā tagad ir arī mainīgais x = 144
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi daļskaitli: 8.6549
+mans_mainiigais =      8.655
+vai tu esi ievadījis skaitli:     8.6549
+vēl atmiņā tagad ir arī mainīgais x =      74.9072940
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi daļskaitli: 5.12345
+mans_mainiigais =            5.12
+vai tu esi ievadījis skaitli:        5.123450
+vēl atmiņā tagad ir arī mainīgais x =      26.2497399
+>>> 
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi daļskaitli: 8
+mans_mainiigais =            8.00
+vai tu esi ievadījis skaitli:        8.000000
+vēl atmiņā tagad ir arī mainīgais x =      64.0000000
+>>> type (mans_mainiigais)
+<type 'float'>
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi simbolu rindu: aaaa
+
+Traceback (most recent call last):
+  File "/home/user/rtr105/test_1_20180925.py", line 1, in <module>
+    mans_mainiigais =  1. * input ("Cienījamais lietotāj, lūdzu, ievadi simbolu rindu: ")
+  File "<string>", line 1, in <module>
+NameError: name 'aaaa' is not defined
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi simbolu rindu: aaaa
+
+Traceback (most recent call last):
+  File "/home/user/rtr105/test_1_20180925.py", line 1, in <module>
+    mans_mainiigais =  1. * input ("Cienījamais lietotāj, lūdzu, ievadi simbolu rindu: ")
+  File "<string>", line 1, in <module>
+NameError: name 'aaaa' is not defined
+>>> 
+=============== RESTART: /home/user/rtr105/test_1_20180925.py ===============
+Cienījamais lietotāj, lūdzu, ievadi simbolu rindu: aaa
+
+Traceback (most recent call last):
+  File "/home/user/rtr105/test_1_20180925.py", line 2, in <module>
+    x = mans_mainiigais * mans_mainiigais
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> 

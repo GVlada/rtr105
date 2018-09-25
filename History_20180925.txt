@@ -1,0 +1,12 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  idle &
+    4  ls -l
+    5  cd rtr105/
+    6  idle &
+    7  ls -l
+    8  nano test_1_20180925.py
+    9  ls -l
+   10  nano dgr_20180925.ry
+   11  ls -l
+   12  history > History_20180925.txt
