@@ -1,0 +1,14 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  git clone https://github.com/GVlada/rtr105
+    5  idle &
+    6  cd rtr105
+    7  idle &
+    8  nano test_20181008_1.py
+    9  ls -l
+   10  mv test_20181008_1.py test_20181009_1.py 
+   11  ls -l
+   12  nano dgr_20181009.py
+   13  ls -l
+   14  history > history_20181009.txt
